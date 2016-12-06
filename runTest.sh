@@ -1,9 +1,16 @@
 #!/bin/sh
 
 # Simple wrapper for running ipcalc test suite
+
 echo "runTest.sh, v 1.0"
 
-CLSS_PATH=bin/
+if [ -d bin ]; then
+    CLSS_PATH=bin/
+else
+    mkdir bin
+    CLSS_PATH=bin/
+fi
+
 JUNIT_JAR=/usr/local/junit/* # should be changed to match your installation
 TEST_CLSS_PATH=$CLSS_PATH:tst/bin:$JUNIT_JAR
 SOURCE_FILE=src/IpCalc.java
