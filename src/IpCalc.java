@@ -31,7 +31,7 @@ package ipcalc;
  * 			print info about IPv4 address space
  *
  * 	@author 	Wojtek Puchta
- *	@version	0.1 
+ *	@version	0.3 
  *	@since		2016-10-30
  */
 
