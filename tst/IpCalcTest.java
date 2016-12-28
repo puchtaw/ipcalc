@@ -6,6 +6,7 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 
+
 public class IpCalcTest {
     private IpCalc IPcalc;
 
